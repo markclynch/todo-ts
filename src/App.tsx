@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import styled, { css } from 'styled-components'
 import './App.css'
-import { isTSModuleBlock } from '@babel/types'
 type FormElem = React.FormEvent<HTMLFormElement>
 
 interface ITodo {
